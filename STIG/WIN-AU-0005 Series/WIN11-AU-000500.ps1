@@ -11,13 +11,13 @@
     Version         : 1.0
     CVEs            : N/A
     Plugin IDs      : N/A
-    STIG-ID         : WN10-AU-000500
+    STIG-ID         : WN10-AU-000560
 
 .TESTED ON
     Date(s) Tested  : 2025-08-03
     Tested By       : Cole Crowl
-    Systems Tested  : 
-    PowerShell Ver. : 
+    Systems Tested  : Windows 10 Pro 6.3
+    PowerShell Ver. :  5.1.26100.4652 
 
 .USAGE
     Put any usage instructions here.
@@ -40,3 +40,5 @@ if ($logSettings.MaximumKilobytes -lt $minSizeKB) {
 } else {
     Write-Host "Current size ($($logSettings.MaximumKilobytes) KB) meets or exceeds requirement. No action needed."
 }
+.SYNOPSIS
+    This PowerShell script ensures Windows 11 must be configured to audit Other Logon/Logoff Events. 
