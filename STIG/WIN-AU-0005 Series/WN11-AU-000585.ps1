@@ -25,7 +25,7 @@
     specified settings. It should be run with administrative privileges.
 
     Example syntax:
-    PS C:\> .\STIG-WN10-AU-000585_fix.ps1
+    PS C:\> .\STIG-WN11-AU-000585_fix.ps1
 #>
 
 # Enable Audit Process Creation - Failure
