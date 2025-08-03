@@ -21,7 +21,7 @@
 
 .USAGE
     .USAGE
-    This script remediates the 'WN10-AU-000560' STIG by configuring the 
+    This script remediates the 'WN11-AU-000560' STIG by configuring the 
     specified settings. It should be run with administrative privileges.
 
     Example syntax:
