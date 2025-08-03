@@ -28,5 +28,19 @@
     PS C:\> .\STIG-WN11-AU-000510_fix.ps1
 #>
 
-$sizeBytes = 32768 * 1024
-wevtutil sl System /ms:$sizeBytes
+# Define the registry path where the Group Policy setting is stored for the System log
+$regPath = "HKLM:\SOFTWARE\Policies\Microsoft\Windows\EventLog\System"
+
+# Define the required log size in KB
+$maxLogSizeKB = 32768
+
+# Check if the registry key exists and create it if it doesn't
+if (-not (Test-Path $regPath)) {
+    Write-Host "Registry key not found. Creating $regPath..."
+    New-Item -Path $regPath -Force | Out-Null
+    Write-Host "Registry key created."
+}
+
+# Set the "MaxSize" value to configure the log size
+Set-ItemProperty -Path $regPath -Name "MaxSize" -Value $maxLogSizeKB -Type DWORD -Force
+
