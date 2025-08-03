@@ -17,7 +17,7 @@
     Date(s) Tested  : 2025-08-03
     Tested By       : Cole Crowl
     Systems Tested  : Windows 10 Pro 6.3
-    PowerShell Ver. :  5.1.26100.4652
+    PowerShell Ver. : 5.1.26100.4652
 
 .USAGE
     .USAGE
@@ -25,7 +25,7 @@
     specified settings. It should be run with administrative privileges.
 
     Example syntax:
-    PS C:\> .\STIG-WN10-AU-000560_fix.ps1
+    PS C:\> .\STIG-WN11-AU-000560_fix.ps1
 #>
 
 auditpol /set /subcategory:"Other Logon/Logoff Events" /success:enable
