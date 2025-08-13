@@ -20,8 +20,13 @@
     PowerShell Ver. :  5.1.26100.4652 
 
 .USAGE
-    Put any usage instructions here.
-    Example syntax:
+    Open powershell ise and create new file,
+    copy paste into powershell. 
+    
+    For additional information or if error review information at:
+    https://stigaview.com/products/win11/v1r5/
+    
+    syntax can be found here.
     PS C:\> .\__remediation_template(STIG-ID-WN11-SO-000190).ps1 
 #>
 
