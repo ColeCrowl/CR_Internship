@@ -20,11 +20,13 @@
     PowerShell Ver. :  5.1.26100.4652
 
 .USAGE
-    .USAGE
-    This script remediates the 'WN11-AU-000585' STIG by configuring the 
-    specified settings. It should be run with administrative privileges.
-
-    Example syntax:
+    Open powershell ise and create new file,
+    copy paste into powershell. 
+    
+    For additional information or if error review information at:
+    https://stigaview.com/products/win11/v1r5/
+    
+    syntax can be found here.
     PS C:\> .\STIG-WN11-AU-000510_fix.ps1
 #>
 
