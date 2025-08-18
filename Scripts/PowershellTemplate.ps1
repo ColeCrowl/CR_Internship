@@ -6,8 +6,8 @@
 
 .NOTES
     Author          : Josh Madakor
-    Date Created    : 2024-09-09
-    Last Modified   : 2024-09-09
+    Date Created    : 2025-07-09
+    Last Modified   : 2025-07-09
     Version         : 1.0
     CVEs            : CVE-2014-3566
                       CVE-2021-23839
@@ -20,8 +20,8 @@
                     : https://www.tenable.com/plugins/nessus/157288
 
 .TESTED ON
-    Date(s) Tested  : 2024-09-09
-    Tested By       : Josh Madakor
+    Date(s) Tested  : 2025-07-09
+    Tested By       : Cole Crowl
     Systems Tested  : Windows Server 2019 Datacenter, Build 1809
                       Windows 10 Pro, Build 22H2
     PowerShell Ver. : 5.1.17763.6189
